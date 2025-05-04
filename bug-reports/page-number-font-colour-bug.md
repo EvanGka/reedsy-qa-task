@@ -22,7 +22,7 @@ The current page number is almost the same color as the background.
 The page number should have enough contrast against the background to be easily visible.
 
 **Screenshot:**  
-_Add screenshot here (e.g., `screenshots/page-number-font-colour-bug.png`)._
+![Pagination colour](./screenshots/page-number-font-colour-bug.png)
 
 **Suggested Fix:**  
 In `src/components/pagination.vue`, add:
