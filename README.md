@@ -13,13 +13,14 @@ First you need to run the App:
 4. `npm start`
 5. The frontend will be running at http://localhost:5173/
 
-The you can run the Cypress tests:
+Then you can run the Cypress tests:
 
 1. Clone the current repo
 2. In the root directory `npm install`
-3. npx cypress open → opens Cypress UI for interactive runs.
+   To execute the Cypress tests you have two options:
+   `npx cypress open` → opens Cypress UI for interactive runs.
    or
-   npx cypress run → runs all tests headlessly in the terminal.
+   `npx cypress run` → runs all tests headlessly in the terminal.
 
 (Reports + screenshots auto-generated in cypress/reports)
 
