@@ -17,10 +17,11 @@ Then you can run the Cypress tests:
 
 1. Clone the current repo
 2. In the root directory `npm install`
-   To execute the Cypress tests you have two options:
-   `npx cypress open` → opens Cypress UI for interactive runs.
-   or
-   `npx cypress run` → runs all tests headlessly in the terminal.
+
+To execute the Cypress tests you have two options:
+
+- [ ] `npx cypress open` → opens Cypress UI for interactive runs.
+- [ ] `npx cypress run` → runs all tests headlessly in the terminal.
 
 (Reports + screenshots auto-generated in cypress/reports)
 
