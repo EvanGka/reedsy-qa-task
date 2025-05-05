@@ -38,4 +38,4 @@ Why I choose these tests:
 
 ## Mobile Testing
 
-To enable testing from a mobile device on your local network, please follow the steps outlined in [mobile-testing.md](./mobile-testing.md).
+To enable testing from a mobile device on your local network, please follow the steps outlined in [mobile-testing.md](./bug-reports/mobile-testing.md)
