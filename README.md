@@ -35,3 +35,7 @@ Why I choose these tests:
 
 - [ ] Pagination & search function bugs: I automated these because they are critical ones. They's breaking the navigation and the search functionality
 - [ ] Bookshelf grid test: This is a core smoke test to confirm the book list is always loaded
+
+## Mobile Testing
+
+To enable testing from a mobile device on your local network, please follow the steps outlined in [mobile-testing.md](./mobile-testing.md).
