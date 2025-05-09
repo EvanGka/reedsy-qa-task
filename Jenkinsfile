@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git 'https://github.com/EvanGka/reedsy-qa-task.git'
+            }
+        }
+        stage('Install dependencies') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('Run Cypress tests') {
+            steps {
+                sh 'npx cypress run'
+            }
+        }
+    }
+}
