@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Run Cypress tests') {
             steps {
-                sh 'npx cypress run'
+                sh 'npx xvfb-run --auto-servernum --server-args="-screen 0 1280x720x24" npx cypress run'
             }
         }
     }
